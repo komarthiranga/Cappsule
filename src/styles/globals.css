@@ -1,0 +1,54 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body {
+  /* color: rgb(var(--foreground-rgb)); */
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+.max-w-lg {
+  max-width: 60rem !important;
+}
+
+.w-full {
+  width: 102% !important;
+}
+
+.max-w-md {
+  max-width: 100% !important;
+}
+
+.h-screen {
+  height: 16vh !important;
+}
+
+.mb-5 {
+  margin-bottom: 0.8rem !important;
+}
+
+.py-2 {
+  padding-top: 0.3rem !important;
+  padding-bottom: 0.3rem !important;
+}
+
+.toMargin {
+  margin-top: 20px;
+}
+
+.noStock {
+  border: 1px dotted darkblue;
+}
+
+.price {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+}
